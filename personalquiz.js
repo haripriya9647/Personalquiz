@@ -155,6 +155,6 @@ function finalcheck()
     console.log(chalk.bgBlue("Hurrah!! you have answered all answers correctly.Send me a screenshot so that I can add your name to highest scorer"));
   }
   else{
-    console.log("You need to know much more about me");
+    console.log(chalk.bgRed("You need to know much more about me"));
   }
 }
